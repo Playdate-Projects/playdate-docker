@@ -5,5 +5,9 @@
       "extensions": ["trixnz.vscode-lua"]
     }
   },
-  "remoteUser": "playdate-sdk"
+  "remoteUser": "playdate-sdk",
+  "features": {
+    "git": "latest",
+    "github-cli": "latest"
+  }
 }
