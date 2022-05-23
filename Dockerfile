@@ -26,5 +26,3 @@ RUN wget https://download.panic.com/playdate_sdk/Linux/PlaydateSDK-1.11.1.tar.gz
 RUN tar -xf sdk.tar.gz
 
 WORKDIR /home/playdate-sdk
-
-USER playdate-sdk
