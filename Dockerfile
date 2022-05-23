@@ -3,7 +3,7 @@ FROM ubuntu:latest
 
 # Update packages
 RUN apt update -y \
-  && apt upgrade 
+  && apt upgrade -y
 
 # Install wget (required to download SDK)
 RUN apt install -y \
