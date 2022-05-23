@@ -1,5 +1,5 @@
 {
-  "image": "https://ghcr.io/playdate-projects/playdate-docker:sha256-53ae91b5fdfe8d257db0a35807670ef88dd2e9c1169c2e040b8edad0e16d2fac.sig",
+  "image": "ghcr.io/playdate-projects/playdate-docker:sha256-53ae91b5fdfe8d257db0a35807670ef88dd2e9c1169c2e040b8edad0e16d2fac.sig",
   "customizations": {
     "vscode": {
       "extensions": ["trixnz.vscode-lua"]
