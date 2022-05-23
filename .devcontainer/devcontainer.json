@@ -4,5 +4,6 @@
     "vscode": {
       "extensions": ["trixnz.vscode-lua"]
     }
-  }
+  },
+  "remoteUser": "playdate-sdk"
 }

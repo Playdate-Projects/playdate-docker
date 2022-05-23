@@ -12,7 +12,8 @@ RUN apt install -y \
   sudo
 
 # create playdate-sdk user
-RUN useradd -m playdate-sdk \ 
+RUN groupadd playdate-sdk --gid 1000 \
+  && useradd -m playdate-sdk --gid 1000 \ 
   && echo playdate-sdk ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/playdate-sdk \
   && chmod 0440 /etc/sudoers.d/playdate-sdk
 
