@@ -2,11 +2,11 @@ FROM ubuntu:latest
 
 
 # Update packages
-RUN apt update \
+RUN apt update -y \
   && apt upgrade 
 
 # Install wget (required to download SDK)
-RUN apt install \
+RUN apt install -y \
   wget
 
 # Download SDK v1.11.1
