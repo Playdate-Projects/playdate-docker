@@ -5,11 +5,11 @@ FROM ubuntu:latest
 RUN apt update -y \
   && apt upgrade -y
 
-# Install wget (required to download SDK), git (cause why not), and sudo (because yes)
+# Install wget (required to download SDK), sudo (because yes), and libpng-dev (pdc requires it)
 RUN apt install -y \
   wget \
-  git \
-  sudo
+  sudo \
+  libpng-dev
 
 # create playdate-sdk user
 RUN groupadd playdate-sdk --gid 1000 \
