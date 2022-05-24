@@ -25,4 +25,6 @@ RUN wget https://download.panic.com/playdate_sdk/Linux/PlaydateSDK-1.11.1.tar.gz
 # Untar SDK to cwd
 RUN tar -xf sdk.tar.gz
 
+ENV PATH="/usr/bin/PlaydateSDK-1.11.1/bin:$PATH"
+
 WORKDIR /home/playdate-sdk
