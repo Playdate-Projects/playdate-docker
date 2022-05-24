@@ -9,5 +9,8 @@
   "features": {
     "git": "latest",
     "github-cli": "latest"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
   }
 }
