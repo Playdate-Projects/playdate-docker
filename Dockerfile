@@ -27,4 +27,6 @@ RUN tar -xf sdk.tar.gz
 
 ENV PATH="/usr/bin/PlaydateSDK-1.11.1/bin:$PATH"
 
+ENV PLAYDATE_SDK_PATH="/usr/bin/PlaydateSDK-1.11.1"
+
 WORKDIR /home/playdate-sdk
